@@ -20,6 +20,15 @@ Description: GRU is another variant of RNN that simplifies the architecture comp
 
 Description: The standard RNN architecture was also implemented for comparison with more advanced models like LSTM and GRU.
 
+
+**Harris Hawk Optimization (HHO)**
+
+**Overview**
+Harris Hawk Optimization is an evolutionary algorithm that is particularly well-suited for optimizing complex, high-dimensional problems. It is inspired by the collaborative hunting strategy of Harris's Hawks in nature.
+
+**Integration with Precipitation Prediction Models**
+To enhance the performance of the LSTM, GRU, and RNN models, hyperparameter tuning is crucial. HHO is employed to efficiently search the hyperparameter space and find optimal configurations for the models.
+
 **Data**
 
 The real-time data used for this project covers precipitation records in Thanjavur district from 1980 to 2022. The dataset is preprocessed and split into training, validation, and test sets to train and evaluate the models.
